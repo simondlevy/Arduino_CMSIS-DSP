@@ -1,6 +1,8 @@
 #!/bin/bash
 
-CMSIS=${HOME}/.arduino15/packages/STMicroelectronics/tools/CMSIS/5.9.0/CMSIS
+# This should reflect your CMSIS installation
+CMSIS_VERSION=5.9.0
+CMSIS=${HOME}/.arduino15/packages/STMicroelectronics/tools/CMSIS/${CMSIS_VERSION}/CMSIS
 
 cp -r ${CMSIS}/DSP/Include/* src
 cp -r ${CMSIS}/DSP/PrivateInclude/* src
