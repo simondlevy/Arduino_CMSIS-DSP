@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CMSIS=${HOME}/.arduino15/packages/STMicroelectronics/tools/CMSIS/5.9.0/CMSIS/
+CMSIS=${HOME}/.arduino15/packages/STMicroelectronics/tools/CMSIS/5.9.0/CMSIS
 
 cp -r ${CMSIS}/DSP/Include/* src
 cp -r ${CMSIS}/DSP/PrivateInclude/* src
